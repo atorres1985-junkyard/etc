@@ -1,0 +1,19 @@
+# -*- mode: org; coding: utf-8-unix; fill-column: 80 -*-
+
+#+TITLE: ETC
+
+* Introdução
+
+Este repositório reúne os arquivos de configuração dos meus computadores
+pessoais.
+
+O nome, um tanto inusitado, se refere ao diretório =/etc= da [[Especificação de
+Hierarquia de Sistemas de
+Arquivos][https://refspecs.linuxfoundation.org/fhs.shtml]] típica de sistemas
+Unix, cujo propósito é reunir arquivos de configuração de diversas partes do
+sistema.
+
+* Licença
+
+É uma licença no estilo MIT, explícita no arquivo LICENSE.TXT (com tradução em
+LICENSE-PTBR.TXT).
