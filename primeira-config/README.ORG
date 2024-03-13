@@ -1,0 +1,11 @@
+# -*- mode: org; coding: utf-8-unix; fill-column: 80 -*-
+
+#+TITLE: Primeira Configuração
+
+Este diretório contém os arquivos criados na primeira instalação do NixOS.
+
+A ideia é que, em vez de refazer completamente todos os passos no caso de
+atualização de hardware, bastaria copiar estes arquivos para =/etc/nixos= e
+executar =nixos-install=.
+
+Efetivamente, o sistema é gerenciado via flakes após esta instalação inicial.
