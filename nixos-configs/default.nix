@@ -10,4 +10,12 @@
     ];
     specialArgs.flake = flake;
   };
+
+  pantera = nixpkgs.lib.nixosSystem {
+    system = "x86_64-linux";
+    modules = [
+      ./pantera/configuration.nix
+    ];
+    specialArgs.flake = flake;
+  };
 }
