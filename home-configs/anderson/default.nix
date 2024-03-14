@@ -470,4 +470,13 @@ in
     };
   };
 
+  xdg.configFile = {
+    "emacs" = {
+      source = builtins.path {
+        name = "emacs-dir";
+        path = ./emacs;
+      };
+      recursive = true;
+    };
+  };
 }
