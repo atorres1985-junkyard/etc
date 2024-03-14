@@ -164,6 +164,14 @@ in
       arguments = [];
     };
 
+    rtorrent = {
+      enable = true;
+      extraConfig = readFileFromPath {
+        name = "rtorrent.rc";
+        path = dotfiles/rtorrent.rc;
+      };
+    };
+
     bottom.enable = true;
     brave.enable = true;
     direnv.enable = false;
