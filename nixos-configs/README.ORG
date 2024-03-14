@@ -1,0 +1,5 @@
+# -*- mode: org; coding: utf-8-unix; fill-column: 80 -*-
+
+#+TITLE: NixOS Config
+
+Este diretório contém as configurações das máquinas rodando NixOS.
