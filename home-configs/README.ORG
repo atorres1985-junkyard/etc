@@ -1,0 +1,5 @@
+# -*- mode: org; coding: utf-8-unix; fill-column: 80 -*-
+
+#+TITLE: Home Configs
+
+Este diretório contém as configurações automáticas dos usuários (eu).
