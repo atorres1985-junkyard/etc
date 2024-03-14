@@ -1,0 +1,5 @@
+# -*- mode: org; coding: utf-8-unix; fill-column: 80 -*-
+
+#+TITLE: Dev Shells
+
+Algumas devshells que eu uso de vez em quando.
