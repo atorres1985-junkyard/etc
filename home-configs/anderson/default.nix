@@ -113,6 +113,14 @@ in
       enableVteIntegration = true;
     };
 
+    bashmount = {
+      enable = true;
+      extraConfig = readFileFromPath {
+        name = "bashmount.sh";
+        path = ./dotfiles/bashmount.sh;
+      };
+    };
+
     bat = {
       enable = true;
       config = {
