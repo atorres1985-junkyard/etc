@@ -100,6 +100,14 @@ in
   };
 
   programs = {
+    alacritty = {
+      enable = false;
+      settings = readFileFromPath {
+        name = "alacritty.yml";
+        path = ./dotfiles/alacritty.yml;
+      };
+    };
+
     bash = {
       enable = true;
       enableVteIntegration = true;
