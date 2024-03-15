@@ -16,6 +16,11 @@
       flake = inputs.self;
     };
 
+    homeConfigurations = import ./home-configs {
+      inherit (inputs) home-manager nixpkgs;
+      flake = inputs.self;
+    };
+
     nixosConfigurations = import ./nixos-configs {
       inherit (inputs) nixpkgs;
       flake = inputs.self;
