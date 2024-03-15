@@ -10,5 +10,10 @@
       inherit (inputs) nixpkgs;
       flake = inputs.self;
     };
+
+    nixosConfigurations = import ./nixos-configs {
+      inherit (inputs) nixpkgs;
+      flake = inputs.self;
+    };
   };
 }
