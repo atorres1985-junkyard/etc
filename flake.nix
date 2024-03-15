@@ -6,5 +6,9 @@
   };
 
   outputs = inputs: {
+    devShells = import ./dev-shells {
+      inherit (inputs) nixpkgs;
+      flake = inputs.self;
+    };
   };
 }
