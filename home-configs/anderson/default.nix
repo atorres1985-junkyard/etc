@@ -30,7 +30,7 @@ in
       # inherit (pkgs.wayfirePlugins) wcm;
         inherit (pkgs)
           # hypr
-          arcan-all-wrapped
+          # arcan-all-wrapped
           aspell
           bc
           cksfv
